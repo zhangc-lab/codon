@@ -343,7 +343,7 @@ export default function CodonAnalyzer(){
           </div>
           <textarea value={input} onChange={e=>setInput(e.target.value)}
             placeholder={">Gene1\nATGTTCGATTTCAACAAATACATGG...\n\n>Gene2\nATGGCGACCATTGCGATT..."}
-            style={{width:'100%',minHeight:110,background:'#0a0f1a',color:'#94a3b8',border:'1px solid #1e293b',borderRadius:6,padding:'8px 10px',fontFamily:'monospace',fontSize:12,resize:'vertical',outline:'none',boxSizing:'border-box',lineHeight:1.6}}/>
+            style={{width:'100%',minHeight:320,background:'#0a0f1a',color:'#94a3b8',border:'1px solid #1e293b',borderRadius:6,padding:'8px 10px',fontFamily:'monospace',fontSize:12,resize:'vertical',outline:'none',boxSizing:'border-box',lineHeight:1.6}}/>
           {error&&<p style={{margin:'6px 0 0',color:'#f87171',fontSize:12}}>⚠ {error}</p>}
           <div style={{marginTop:10,display:'flex',gap:8,flexWrap:'wrap'}}>
             <button onClick={run} style={{padding:'8px 22px',background:'#1d4ed8',color:'#fff',border:'none',borderRadius:6,fontWeight:600,fontSize:13,cursor:'pointer'}}>Analyze →</button>
